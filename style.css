@@ -1,0 +1,780 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.container1{
+    background-image: url("assets/IN-en-20231113-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 92.5vh; 
+}
+
+.smokecover{
+    height: 92.5vh;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar{
+    width: 77vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3vh;
+}
+
+.rightcont select{
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 600;
+    font-size :15px;
+    text-align: center;
+    color: azure;
+    background-color: rgba(44, 44, 44, 0.4);
+    border: 0.1px solid rgb(87, 87, 87);
+    border-radius: 3px;
+    padding: 0.2vw 1.2vw 0 1.2vw;
+    position: relative;
+    right:  15px;
+}
+
+.rightcont button{
+font-family: 'Martel Sans', sans-serif ;
+    font-weight: 600;
+    font-size :15px;
+    text-align: center;  
+    color: white;  
+    padding: 0.20vw 1vw 0.10vw 1vw;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(229, 9, 20);
+    cursor: pointer;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+    transition-duration: 250ms;
+}
+
+.rightcont button:hover{
+    background-color: rgb(197, 7, 17);
+}
+
+.c1textcont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 25vh;
+}
+
+.c1textcont :nth-child(1){
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
+    font-size: 46px;
+    color: white;
+    text-align: center;
+    padding: 0 10vw 0 10vw;
+}           
+
+.c1textcont :nth-child(2){
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    padding-top: 1vw;
+}
+
+.c1textcont :nth-child(3){
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 400;
+    font-size :1.25rem;
+    color: white;
+    text-align: center;
+    padding-top: 0.8vw;
+}
+
+.emailformcont{
+    display: flex;
+    justify-content: center;
+    padding: 1.5vh 0 0 0;
+}
+
+.emailformcont :nth-child(1){
+    font-family: 'Martel Sans', sans-serif ;
+    font-weight: 400;
+    font-size :15px;    
+    padding: 0.85vw 10.5vw 0.85vw 1vw;
+    border: 0.01px solid rgb(138, 138, 138);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0,.4);
+}
+
+.emailformcont ::placeholder{
+    color: rgb(224, 222, 222);
+}
+
+.emailformcont>input{
+    color: rgb(215, 215, 215);
+}
+
+.emailformcont button{
+    font-family: 'Martel Sans', sans-serif ;
+    font-weight: 600;
+    font-size :24px;
+    text-align: center;  
+    color: white;  
+    padding: 0vw 2vw 0vw 2vw;
+    border: 2px solid rgb(229, 9, 20);
+    border-radius: 5px;
+    background-color: rgb(229, 9, 20);
+    cursor: pointer;
+    position: relative;
+    left: 8px;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+    transition-duration: 250ms;
+
+}
+
+.emailformcont button:hover{
+    background-color: rgb(197, 7, 17);
+}
+
+.separator{
+    height: 0.5vw;
+    background-color: rgb(35,35,35);
+}
+
+/*media query for container1*/
+
+@media only screen and (max-width:376px){
+.container1{
+    background-image: url("assets/IN-en-20231113-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+.smokecover{
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar{
+    width: 88vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4vh;
+}
+
+.logocont img{
+    width: 80px;
+}
+
+.rightcont select{
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 600;
+    font-size :15px;
+    text-align: center;
+    color: azure;
+    background-color: rgba(44, 44, 44, 0.4);
+    border: 0.1px solid rgb(87, 87, 87);
+    border-radius: 3px;
+    padding: 0.2vw 1.2vw 0 1.2vw;
+    position: relative;
+    right:  15px;
+}
+
+.rightcont button{
+font-family: 'Martel Sans', sans-serif ;
+    font-weight: 600;
+    font-size :15px;
+    text-align: center;  
+    color: white;  
+    padding: 0.20vw 1vw 0.10vw 1vw;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(229, 9, 20);
+    cursor: pointer;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+    transition-duration: 250ms;
+}
+
+.c1textcont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 9vh;
+}
+
+.c1textcont :nth-child(1){
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    padding: 0 7vw 0 7vw;
+}           
+
+.c1textcont :nth-child(2){
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16.5px;
+    color: white;
+    text-align: center;
+    padding-top: 4vw;
+}
+
+.c1textcont :nth-child(3){
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 400;
+    font-size :16.5px;
+    color: white;
+    text-align: center;
+    padding: 5vw 13vw 1vw 13vw;
+}
+
+.emailformcont{
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: center;
+}
+
+.emailformcont :nth-child(1){
+    font-family: 'Martel Sans', sans-serif ;
+    font-weight: 400;
+    font-size :15px;    
+    width: 65vw;
+    padding: 2.5vw 7vw 2.5vw 3vw;
+    border: 0.01px solid rgb(138, 138, 138);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0,.4);
+}
+
+.emailformcont>input{
+    color: rgb(215, 215, 215);
+}
+
+.emailformcont button{
+    font-family: 'Martel Sans', sans-serif ;
+    font-weight: 600;
+    font-size :17px;
+    text-align: center;  
+    color: white;  
+    padding: 1.5vw 3vw 1vw 3vw;
+    border: 2px solid rgb(229, 9, 20);
+    border-radius: 5px;
+    background-color: rgb(229, 9, 20);
+    cursor: pointer;
+    position: relative;
+    top: 14px;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+    transition-duration: 250ms;
+
+}
+
+.separator{
+    height: 2vw;
+    background-color: rgb(35,35,35);
+}
+}
+
+/*section-2*/
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c2textcont{
+    width: 39vw;
+}
+
+.c2textcont :nth-child(1){
+    font-family: poppins;
+    font-weight: 900;
+    font-size :48px;
+    color: white;
+}
+
+.c2textcont :nth-child(2){
+    font-family: poppins;
+    font-weight: 500;
+    font-size :21px;
+    color: white;
+    margin-top: 8px;
+}
+
+.c2imgcont{
+    position: relative;
+    margin: 10vh 0 7vh 0;
+}
+
+.c2imgcont img {
+    width: 580px;
+    z-index: 1;
+    position: relative;
+}
+
+.c2imgcont video {
+    width: 420px;
+    position: absolute;
+    top: 91px;
+    right: 83.1px;
+}
+
+/*media query for container2*/
+
+@media only screen and (max-width:376px){
+    .container2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .c2textcont{
+        width: 90vw;
+        padding-top: 8vh; 
+    }
+    
+    .c2textcont :nth-child(1){
+        font-family: poppins;
+        font-weight: 900;
+        font-size :30px;
+        color: white;
+        text-align: center;
+    }
+    
+    .c2textcont :nth-child(2){
+        font-family: poppins;
+        font-weight: 500;
+        font-size :17px;
+        color: white;
+        margin-top: 8px;
+        text-align: center;
+    }
+    
+    .c2imgcont{
+        position: relative;
+        margin: 4vh 0 7vh 0;
+    }
+    
+    .c2imgcont img {
+        width: 320px;
+        z-index: 1;
+        position: relative;
+    }
+    
+    .c2imgcont video {
+        width: 265px;
+        position: absolute;
+        top: 50px;
+        left: 40px;
+    }
+}
+
+/*section-3*/
+
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.c3textcont{
+   width: 38vw;
+}
+
+.c3textcont :nth-child(1){
+    font-family: poppins;
+    font-weight: 900;
+    font-size :45px;
+    color: white;
+}
+
+.c3textcont :nth-child(2){
+    font-family: poppins;
+    font-weight: 500;
+    font-size :21px;
+    color: white;
+    margin-top: 10px;
+}
+
+.c3imgcont{
+    position: relative;
+}
+
+.mainimg {
+    width: 570px;
+    position: relative;
+}
+
+.bannercont{
+    border: 1px solid rgb(208, 208, 208);
+    border-radius: 10px;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 300px;
+    left: 135px;
+    background-color: black;
+}
+
+.bannerimg{
+    width: 50px;
+    height: 70px;
+    padding: 12px 0 12px 15px;
+}
+
+.bannergif{
+    width: 50px;
+    height: 50px;
+}
+
+.bannertext{
+    color:beige ;
+}
+
+/*media query for container3*/
+
+@media only screen and (max-width:376px){
+    .container3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 75vh;
+    }
+    
+    .c3textcont :nth-child(1){
+        font-family: poppins;
+        font-weight: 900;
+        font-size :15px;
+        color: white;
+    }
+    
+    .c3textcont :nth-child(2){
+        font-family: poppins;
+        font-weight: 500;
+        font-size :11px;
+        color: white;
+        margin-top: 10px;
+    }
+    
+    .c3imgcont img {
+        width: 170px;
+    }    
+}
+
+
+/*section-4*/
+
+.container4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    height: 75vh;
+}
+
+.c4textcont{
+    width: 37vw;
+}
+
+.c4textcont :nth-child(1){
+    font-family: poppins;
+    font-weight: 900;
+    font-size :48px;
+    color: white;
+}
+
+.c4textcont :nth-child(2){
+    font-family: poppins;
+    font-weight: 500;
+    font-size :21px;
+    color: white;
+    margin-top: 8px;
+}
+
+.c4imgcont{
+    position: relative;
+    margin: 10vh 0 7vh 0;
+}
+
+.c4imgcont .c4img {
+    width: 580px;
+    z-index: 1;
+    position: relative;
+}
+
+.c4imgcont .c4vid {
+    width: 360px;
+    position: absolute;
+    top: 46px;
+    right: 115px;
+}
+
+/*media query for container4*/
+
+@media only screen and (max-width:376px){
+    .container4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        height: 75vh;
+    }
+    
+    .c4textcont :nth-child(1){
+        font-family: poppins;
+        font-weight: 900;
+        font-size :18px;
+        color: white;
+    }
+    
+    .c4textcont :nth-child(2){
+        font-family: poppins;
+        font-weight: 500;
+        font-size :10px;
+        color: white;
+        margin-top: 8px;
+    }
+    
+    .c4imgcont{
+        position: relative;
+        margin: 10vh 0 7vh 0;
+    }
+    
+    .c4imgcont .c4img {
+        width: 180px;
+        z-index: 1;
+        position: relative;
+    }
+    
+    .c4imgcont .c4vid {
+        width: 60px;
+        position: absolute;
+        top: 46px;
+        right: 115px;
+    }
+}
+
+
+
+/*section-5*/
+
+.container5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    height: 75vh;
+}
+
+.c5textcont{
+    width: 37vw;
+}
+
+.c5textcont :nth-child(1){
+    font-family: poppins;
+    font-weight: 900;
+    font-size :48px;
+    color: white;
+}
+
+.c5textcont :nth-child(2){
+    font-family: poppins;
+    font-weight: 500;
+    font-size :21px;
+    color: white;
+    margin-top: 8px;
+}
+
+.c5imgcont{
+    position: relative;
+    margin: 10vh 0 7vh 0;
+}
+
+.c5imgcont img {
+    width: 570px;
+    z-index: 1;
+    position: relative;
+}
+
+/*media query for container5*/
+
+@media only screen and (max-width:376px){
+    .container5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        height: 75vh;
+    }
+    
+    .c5textcont :nth-child(1){
+        font-family: poppins;
+        font-weight: 900;
+        font-size :18px;
+        color: white;
+    }
+    
+    .c5textcont :nth-child(2){
+        font-family: poppins;
+        font-weight: 500;
+        font-size :11px;
+        color: white;
+        margin-top: 8px;
+    }
+    
+    .c5imgcont{
+        position: relative;
+        margin: 10vh 0 7vh 0;
+    }
+    
+    .c5imgcont img {
+        width: 170px;
+        z-index: 1;
+        position: relative;
+    }
+}
+
+/*FAQ section*/
+
+.faqContainer{
+    height: 120vh;
+}
+
+.faqheadtxtcont{
+    font-family: poppins;
+    font-weight: 900;
+    font-size :43px;
+    color: white;
+    text-align: center;
+    padding-top: 9vh;
+}
+
+.faqblockcont{
+    padding: 2vh 0 6vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.faqblock{
+    background-color: rgb(44, 44, 44);
+    width: 74vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 11vh;
+    padding: 0 15px 0 20px;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+}
+
+.faqblock:hover{
+    background-color: rgb(62, 62, 62);
+    cursor: pointer;
+}
+
+.faqblock span{
+    font-family: poppins;
+    font-weight: 400;
+    font-size :23px;
+    color: white;
+}
+
+.faqblock img{
+    width: 55px;
+}
+
+.faqfootercont p{
+    font-family: poppins;
+    font-weight: 400;
+    font-size :19px;
+    color: white;
+    text-align: center;
+    padding: 1vh 0 1.5vh 0;
+}
+
+/*footer section*/
+
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+    padding: 5vh 10vw 5vh 11vw;
+}
+
+.contacttextcont p{
+    font-family: poppins;
+    font-weight: 300;
+    font-size :13px;
+    color: white;
+}
+
+.footerlinkcont{
+    display: grid;
+    grid-template-areas: "it it it it";
+    justify-content: start;
+    column-gap: 90px;
+    row-gap: 13px;
+}
+
+.footerlinkcont span{
+    color: white;
+    font-family: poppins;
+    font-weight: 300;
+    font-size :13px;
+}
+
+.langtdmarkcont select{
+    font-family: poppins;
+    font-weight: 500;
+    font-size :15px;
+    text-align: center;
+    color: azure;
+    background-color: rgba(44, 44, 44, 0.4);
+    border: 0.1px solid rgb(87, 87, 87);
+    border-radius: 3px;
+    padding: 0vw 0.6vw 0 0.6vw;
+}
+
+.langtdmarkcont p{
+    color: white;
+    font-family: poppins;
+    font-weight: 400;
+    font-size :15px;
+    padding-top: 15px;
+}
+
+/*media query for footer*/
+
+@media only screen and (max-width:376px){
+    .footerlinkcont{
+        display: grid;
+        grid-template-areas: "it it";
+        justify-content: start;
+        column-gap: 90px;
+        row-gap: 13px;
+    }
+}
