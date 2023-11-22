@@ -12,6 +12,3 @@ else{
     x="youth"
 }
 
-if(x=="youth"){
-    confirm("sure you want to proceed?  ")
-}
