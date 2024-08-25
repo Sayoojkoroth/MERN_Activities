@@ -1,3 +1,110 @@
 *{
     margin: 0;
+    padding: 0;
+}
+.box1 {
+    width: 80vw;
+    height: 15vh;
+    background-color: blue;
+    margin: auto;
+}
+
+.box2 {
+    width: 15vw;
+    height: 60vh;
+    background-color: rgb(222, 11, 230);
+    margin: auto;
+    padding: 10px;
+    border: 10px solid black;
+    box-sizing: border-box;
+}
+
+
+
+.p {
+    color: brown;
+}
+
+#p {
+    color: chartreuse;
+    font-size: 5em;
+    margin: 30px;
+    ;
+}
+
+.h411 {
+    border: 5px solid red;
+    display: inline;
+    padding: 1em;
+}
+
+.RE {
+    border: 5px solid green;
+    display: inline-block;
+    padding: 1em;
+    width: 200px;
+    box-shadow: 1px 1px 8px 2px red inset;
+    margin-bottom: 1rem;
+}
+
+.Fuel_mechanism {
+    border: 5px solid rgb(0, 27, 126);
+    display: inline-block;
+    padding: 1em;
+    font-size: 50px;
+    text-shadow: 8px -8px 3px blue;
+}
+
+.container ul {
+    list-style: none;
+    display: flex;
+    border: 1px solid ;
+}
+.container li{
+    padding: 10px;
+}
+
+.ovf{
+    width: 50vw;
+    height: 10vh;
+    border: 3px solid green;
+    overflow: auto;
+    text-align: justify;
+}
+
+.cont1{
+    height: 200vh;
+}
+.posbox{
+    background-color: rgb(214, 226, 43);
+    margin: 10px;
+    display: inline-block;
+    width: 40vw;
+    height: 15vh;
+    overflow: auto;
+    border: 3px solid;
+    position: sticky;
+    top: 10px;
+}
+.posbox1{
+    width: 40vw;
+    height: 15vh;
+    background-color: brown;
+    border: 3px solid black;
+    margin: 10px;
+}
+.posbox2{
+    width: 40vw;
+    height: 15vh;
+    background-color: rgb(31, 31, 201);
+    border: 3px solid black;
+    margin: 10px;
+}
+
+.posbox3{
+    width: 40vw;
+    height: 15vh;
+    background-color: rgb(96, 240, 0);
+    border: 3px solid rgb(0, 0, 0);
+    margin: 10px;
 }
