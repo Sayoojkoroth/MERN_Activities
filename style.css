@@ -418,3 +418,40 @@ footer {
     background-color: rgb(93, 8, 37);
     grid-area: fr;
 }
+
+/*EX6*/
+
+.navbarContainer{
+    display: flex;
+    justify-content: center;
+    margin: 10vh 0 60vh 0;
+}
+.liItemCont{
+    display: flex;
+    align-items: center;
+    padding-left: 30vw;
+    column-gap: 30px;
+    list-style: none;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+nav>img{
+    width: 160px;
+}
+
+ul li img{
+    width: 10px;
+    margin-left: 5px;
+}
+
+ul>img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
