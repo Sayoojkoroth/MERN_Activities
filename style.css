@@ -455,3 +455,22 @@ ul>img{
     height: 30px;
     cursor: pointer;
 }
+
+.bxcon{
+    width: 80vw;
+    height: 80vh;
+    border: 3px solid purple;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.bx{
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid;
+    background-color: #faaee4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale()
+}

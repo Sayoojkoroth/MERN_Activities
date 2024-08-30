@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navCont {
+    margin: auto;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.navCont>img {
+    width: 215px;
+    height: 75px;
+}
+
+.itemCont {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.darrow {
+    width: 8px;
+    padding-left: 3px;
+}
+
+li>img {
+    width: 30px;
+    cursor: pointer;
+}
+
+li>a {
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+}
+
+.sect1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding: 80px 20px 45px 20px;
+
+}
+
+.head {
+    font-family: poppins;
+    font-size: 40px;
+    text-align: center;
+}
+
+.head img {
+    padding-left: 20px;
+}
+
+.boldtext {
+    font-weight: 600;
+}
+
+.subhead {
+    width: 60vw;
+    font-family: poppins;
+    font-size: 21px;
+    text-align: center;
+}
+
+
+.dbtn {
+    padding: 15px 20px 15px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00b6d1;
+    ;
+}
+
+.dbtn a {
+    text-decoration: none;
+    font-family: poppins;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.sect2 {
+    max-width: 65vw;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0 20px 0;
+}
+
+.bigText {
+    font-family: poppins;
+    font-size: 23px;
+
+}
+
+.smallText {
+    font-family: poppins;
+    font-size: 13px;
+}
+
+.sect3 {
+    padding: 20px 0 50px 0;
+    display: grid;
+    grid-template-areas: "card card card";
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 30px 20px 30px 20px;
+    background-color: rgb(244, 244, 244);
+    border-radius: 7px;
+}
+
+.card>p {
+    text-align: center;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.cardBtn{
+    display: flex;
+    column-gap: 10px ;
+}
+.cardBtn :first-child{
+    font-family: poppins;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: #00b6d1;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px
+}
+.cardBtn :nth-child(2){
+    font-family: poppins;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: #00b63d;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px
+}
