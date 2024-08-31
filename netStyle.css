@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.landPage {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/dae1f45f-c2c5-4a62-8d58-6e1b0c6b2d8e/6d1fb8a4-5844-42a4-9b01-1c6c128acf19/IN-en-20240827-TRIFECTA-perspective_WEB_c292a608-cdc6-4686-8dc8-405bfcf753af_large.jpg");
+    position: relative;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.tintFilter {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.navbar {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 81vw;
+    margin: auto;
+    padding: 23px 0px 50px 0px;
+}
+
+.brandLogo {
+    fill: rgb(234, 0, 0);
+    width: 150px;
+}
+
+.lpContent {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20vh 0 19.42vh 0;
+    text-align: center;
+}
+
+.fhead {
+    color: white;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 56px;
+    width: 52vw;
+    line-height: 70px;
+}
+
+.shead {
+    color: white;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.thead {
+    color: white;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.emailForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.mailAd {
+    width: 23rem;
+    height: 3.4rem;
+    border: 1px solid gray;
+    background-color: black;
+    opacity: 0.6;
+    border-radius: 5px;
+    color: white;
+    font-size: 17.5px;
+    padding-left: 15px;
+}
+
+.mailAd::placeholder {
+    color: rgb(255, 255, 255);
+
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 23px;
+    font-family: poppins;
+    font-weight: 500;
+    padding: 11px 22px 11px 22px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(229, 9, 20);
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgb(198, 8, 17);
+    cursor: pointer;
+    transition-property: "hover";
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+.separator {
+    width: 100%;
+    height: 5px;
+    background-color: rgb(99, 99, 99);
+}
+
+.trendinghead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    max-width: 80vw;
+    margin: auto;
+    padding: 50px 0 20px 0;
+}
+
+.trendinghead p {
+    font-size: 23px;
+    font-family: poppins;
+    font-weight: 600;
+    color: white;
+}
+
+.trendingDropdown select {
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: poppins;
+    color: white;
+    background-color: black;
+    padding: 9px 15px 9px 12px;
+}
+
+.trendingMovies {
+    padding: 10px 0 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    position: relative;
+}
+
+.trendingMovies div {
+    border-radius: 7px;
+}
+
+.trendingMovies div:hover {
+    transform: scale(1.06);
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.1ms;
+}
+
+.trendingMovies p {
+    position: absolute;
+    top: 105px;
+    margin-left: -30px;
+    font-size: 100px;
+    font-family: poppins;
+    font-weight: 900;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke: 3px rgb(234, 234, 234);
+    text-shadow: 10px 10px 20px black;
+}
+
+.poster_1 {
+    background-image: url(https://occ-0-6501-3662.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABS7dyld569XV52EmvaAs6GzTtMdIQU8Zt9-yGDnn0m6JopAB1BKIVRBbH4T94B-dR-NnG6B4xerGgKWih07ZQpH4Z2jhpOLwKb4JkVLW4q2bhRSiXBnPRDvdElbC47Lc-8G2fHz0Xql-L0_hL4elj5BfmRiaQ-KWorhWm-STZquEl2UOaAMxfuwSMfN_F6Dw5KMVEhIEI42e4jMw663a-YJZTrl-o-j4Q5T6eAUOEN-KPY3hqrIuffWhgXcMH_9KWh4HtzOWVAemc9i5ft5jGrUdjSS9HUJwxC5mhCK1T3L5YxPK4yVQXHaH0VUeja9zGdgj8kjeUbF7muN3zz3X4JE.webp?r=2b9);
+    width: 180px;
+    height: 250px;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.poster_2 {
+    background-image: url(https://occ-0-6501-3662.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABWap9hHVElt-GijDK-GbW7gDiPbSC2ofVEWpO_8ptKt8LS-Ul3l6MT72Fp_7aYhzg4LkmMyNsFOq8OoMdGTKUQJaC4l7_JpESoaTcKe-HMUSE104sjEkUstFOTrs8MNBcWV1dq0T9_aVIdFEGCc0cMlrY90sUaa8r_5aRysf4Ox38ZcaewNZwrZvWX352t8czy2inCQjUyJTcaRBl11RMexmg9G8VmdSzc-OoSWC70Y_d8HnPxRrUHV_YHUzj-11kkvCuVe_J3ItJpctGMN8JemWeLOHRTVh69Qvi6f_bBKxSI0UhC8tmAtgrUG6tiD7yNUnnXcs_tITt8tHdae5IAc.webp?r=8c7);
+    width: 180px;
+    height: 250px;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.poster_3 {
+    background-image: url(https://occ-0-6501-3662.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABQi1XiY993XKxb4gyLyIwMTIpZa9fS38MRT1ujwp31Y1Htl-cdeYTNZQ_SVNUabbYizhgANXtkMnHRaxVRI5pm660ke3HbzpCaZUVWTSlotBui_49rU8e18Y64nFNyEZ7SJO3IWGqjWDHNHeMSiJ_BgwGWi3cr7NFIjGAK7mmjRbPhCMbzI_zxnSD4e-BFhbB1gIS0xkX5hWRoYxOVLiDrs8d4BBmJ3XkhVdxV2fvDp9W7qvZjXJykDe_i3oF4VUg1tTD9ex-SxYfkV7t17vxeF0Kxi-brg_TKYh-iRCZaYuyzwkxRWz9NZlN3E0m9xUILoga3Hl4eb46zSr38jAR3b4QVx0ylMY1BHuC6khk-wrikROvI4.webp?r=787);
+    width: 180px;
+    height: 250px;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.poster_4 {
+    background-image: url(https://occ-0-6501-3662.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABT6d9_Le002OgbX3wA71jTDb_fxV_QWOUAV39VZvpOFs2GOhtDtN3v01eUwaV6ZgFcb4N3qsSttO4OhhWNL0p4hlVRb-pg_0rEuCXlUJDfQuYmAn51tWIoYAeYvJfVv3djlApNSf-bmRslsxzQdVOjQo3MJN20qibgU8ZQiZgE_mLm16n-3_vX2oU0QNQ4q1jSwh00LgA8-CiWu79ydi01sNg8dSdPhwWNQOMyZJnlRjXgr_WgpJmVGQMwqEKHcWxhKH9_IK063cKX_k4pa2BK7ppVJC-Qzr-r3PeCntz5Mn20q5hZNF6zu8HdOkv9RmNG6aAwcN0GAcnrbDlPb4N-Q.webp?r=68c);
+    width: 180px;
+    height: 250px;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.poster_5 {
+    background-image: url(https://occ-0-6501-3662.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABb3oIcLN4qX-MzZw3EhHY5l4qxUssxXcNgTbPS3_qYa85HJMiJ_7vSflzTZ0FhI8R3bggn_Q9bXHDgzgI-Q96OPDDA2f7RYmAOLUIj4xAIpOMkUmTFl25eejETvoKx6VfHpKs-USBtDQ8rYL1aDAFj1TR-VC_McL82VNeFBWVoV0zvG26iMO6uupuXSTX60.webp?r=71f);
+    width: 180px;
+    height: 250px;
+    background-repeat: none;
+    background-size: cover;
+}

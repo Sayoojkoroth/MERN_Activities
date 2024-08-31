@@ -421,12 +421,13 @@ footer {
 
 /*EX6*/
 
-.navbarContainer{
+.navbarContainer {
     display: flex;
     justify-content: center;
     margin: 10vh 0 60vh 0;
 }
-.liItemCont{
+
+.liItemCont {
     display: flex;
     align-items: center;
     padding-left: 30vw;
@@ -437,26 +438,27 @@ footer {
     font-weight: 600;
 }
 
-ul>li>a{
+ul>li>a {
     text-decoration: none;
     color: black;
 }
-nav>img{
+
+nav>img {
     width: 160px;
 }
 
-ul li img{
+ul li img {
     width: 10px;
     margin-left: 5px;
 }
 
-ul>img{
+ul>img {
     width: 30px;
     height: 30px;
     cursor: pointer;
 }
 
-.bxcon{
+.bxcon {
     width: 80vw;
     height: 80vh;
     border: 3px solid purple;
@@ -464,7 +466,7 @@ ul>img{
     margin-bottom: 100px;
 }
 
-.bx{
+.bx {
     width: 5rem;
     height: 5rem;
     border: 1px solid;
@@ -474,3 +476,20 @@ ul>img{
     align-items: center;
     transform: scale()
 }
+
+.container {
+    width: 100vw;
+    height: 80vh;
+    border: 5px solid brown;
+    background-image: url("https://media.istockphoto.com/id/504991526/photo/cosmos-flowers-and-the-sky.jpg?s=612x612&w=0&k=20&c=jJ632YA3piSxNkD8w5PVjOTGSEbsOqBukmb5FtZctTQ=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+}
+
+/* img{
+    width: 45vw;
+    height: 80vh;
+    object-fit: cover;
+    object-position: top left;
+} */
