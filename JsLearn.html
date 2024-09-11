@@ -1,12 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DOM Tutorial</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="backend.js" defer></script>
 </head>
+
 <body>
-    
-    <script src="code.js"></script>
+    <header>
+        <nav>
+            <img class="websitelogo" src="logo.png" alt="" width="70px" height="70px">
+            <ul class="lisCont">
+                <li><a href="www.google.com">Home</a></li>
+                <li><a href="">Todo</a></li>
+                <li><a href="">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="bg">
+            <section class="sect_1">
+                <p>Manage your tasks</p>
+                <button>Learn More</button>
+            </section>
+        </div>
+        <section id="sect_2">
+            <p>Your plan for today?</p>
+            <div class="planadder">
+                <input type="text" id="textbx" name="" placeholder="Add Todo">
+                <button>Add Todo</button>
+            </div>
+            <div class="todo">To do</div>
+
+        </section>
+        <section class="SignupSect">
+            <div class="SignupCont">
+                <p>Sign Up</p>
+                <form action="" method="" class="formCont">
+                    <div class="subCont">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" name="user_name">
+                    </div>
+
+                    <div  class="subCont">
+                        <label for="pwd">Password</label>
+                        <input type="password" id="pwd" name="passkey">
+                    </div>
+
+                    <div  class="subCont">
+                        <label for="repeatpwd">Confirm Password</label>
+                        <input type="password" id="repeatpwd" name="confpasskey">
+                    </div>
+
+                    <div  class="subCont">
+                        <label for="phone">Phone</label>
+                        <input type="number" name="userphone" id="phone">
+                    </div>
+
+                    <div  class="subCont">
+                        <label for="mailId">Email</label>
+                        <input type="email" id="mailId" name="usermail">
+                    </div>
+                    
+                    <div  class="subCont">
+                        <label for="about">About Yourself</label>
+                        <textarea name="" id="about" cols="20" rows="4"></textarea>
+                    </div>
+                   
+                    <input type="submit" class="SignUpBtn" no-refresh>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!--Dummy area-->
+        <div class="btn-sect">
+            <button>One</button>
+            <button>Two</button>
+            <button>Three</button>
+        </div>
+
+
+    </footer>
 </body>
+
 </html>
