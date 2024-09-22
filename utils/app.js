@@ -44,6 +44,11 @@ export class Owner extends Car{
 
     static displayServiceCenterName = () =>{
         console.log(this.SvcName);
+
     }
 
+}
+
+export const displaydet = ()=>{
+    return "display!!";
 }
