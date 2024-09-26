@@ -1,4 +1,4 @@
-import { renderTodo, todoAdderLogic, todoDeleteLogic } from "./render.js";
+import { renderTodo, todoAdderLogic, todoDeleteLogic, todoCompletedLogic } from "./render.js";
 import { storeProxy } from "./store.js";
 
 
@@ -10,7 +10,7 @@ window.addEventListener("todoAutoRefresh",()=>{
 
 todoAdderLogic();
 todoDeleteLogic();
-
+todoCompletedLogic();
 
 
 

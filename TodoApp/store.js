@@ -44,3 +44,16 @@ export const deletetodoFromStore = (todoId) =>{
         return todoItem.id != todoId      
     })
 }
+
+export const striketodoInStore = (todoId) =>{
+    storeProxy.todos = storeProxy.todos.map((todoItem)=>{
+        if(todoItem.id==todoId && todoItem.isStriked==false){
+            todoItem.isStriked=true;
+        }
+        else if(todoItem.id==todoId && todoItem.isStriked==true){
+            todoItem.isStriked=false;
+        }
+        return todoItem;
+    })
+    console.log(storeProxy.todos)
+}

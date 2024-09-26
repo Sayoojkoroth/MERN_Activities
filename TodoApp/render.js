@@ -1,11 +1,11 @@
 import { storeProxy, addTodo2Store } from "./store.js"
-import { deletetodoFromStore } from "./store.js";
+import { deletetodoFromStore, striketodoInStore } from "./store.js";
 
 export function renderTodo() {
     const listContainer = document.querySelector(".todoContainer");
     const todoLists = storeProxy.todos.map((todoItem) => {
         return `<li class="listrow" data-id=${todoItem.id}>
-                    <span class="${todoItem.isStriked ? "strike" : " "}">${todoItem.todo}</span>
+                    <span class="todotext ${todoItem.isStriked ? "strike" : " "}">${todoItem.todo}</span>
                     <div class="togglers">
                         <input type="checkbox" class="checkmark id="" name="" value="" ${todoItem.isStriked ? "checked" : " "}>
                         <button class="del_btn">X</button>
@@ -22,6 +22,7 @@ export const todoAdderLogic = () => {
         e.preventDefault();
         const newtodoData = {id:4, todo:user_input.value, isStriked:false};
         addTodo2Store(newtodoData);
+        Add_btn.reset();
     })
 }
 
@@ -35,4 +36,13 @@ export const todoDeleteLogic = () =>{
     })
 }
 
+export const todoCompletedLogic = () =>{
+    const listContainer = document.querySelector(".todoContainer");
+    listContainer.addEventListener("click", (e)=>{
+        if(e.target.classList.contains("checkmark")){
+            const todoId = e.target.closest("li").dataset.id;
+            striketodoInStore(todoId);
+        }
+    })
+}
 
